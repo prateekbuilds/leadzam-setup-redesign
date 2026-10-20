@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Design tokens — same names and values as the "LeadZam tokens" variables in Figma */
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+
+  --color-primary: #1570ef;        /* darkened from #1677FF so white text passes WCAG AA */
+  --color-primary-hover: #175cd3;
+  --color-primary-light: #eff6ff;
+  --color-primary-border: #b2ccff;
+  --color-text: #101828;
+  --color-text-muted: #667085;
+  --color-border: #eaecf0;
+  --color-border-strong: #d0d5dd;
+  --color-surface: #ffffff;
+  --color-background: #f9fafb;
+  --color-success: #12b76a;
+  --color-success-text: #027a48;   /* darker green for small text on light green */
+  --color-success-light: #ecfdf3;
+}
+
+body {
+  @apply bg-background text-text font-sans antialiased;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
