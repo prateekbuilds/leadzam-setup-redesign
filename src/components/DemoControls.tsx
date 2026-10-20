@@ -18,7 +18,7 @@ export function DemoControls(props: DemoControlsProps) {
   const { persona } = props
 
   return (
-    <div className="fixed bottom-4 left-4 z-40">
+    <div className="fixed bottom-4 left-4 z-40 md:left-[126px]">
       {open && (
         <div
           id="demo-panel"

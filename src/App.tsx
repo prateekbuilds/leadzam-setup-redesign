@@ -63,7 +63,7 @@ export default function App() {
           onOpenSetup={openSetup}
         />
 
-        <main id="main" className="mx-auto flex w-full max-w-6xl flex-col gap-6 px-4 py-6 md:px-10 md:py-8">
+        <main id="main" className="mx-auto flex w-full max-w-6xl flex-col gap-6 px-4 py-6 pb-24 md:px-10 md:py-8 md:pb-24">
           <div ref={cardRef} className="scroll-mt-20 [&_h2]:outline-none">
             {!guide.removed &&
               (guide.hidden ? (

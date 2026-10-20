@@ -110,8 +110,8 @@ export function AddLeadDialog({ open, onClose, onAdded }: AddLeadDialogProps) {
         </div>
 
         <fieldset className="flex flex-col gap-3" aria-describedby="contact-hint">
-          <legend className="text-sm font-medium">How to reach them</legend>
-          <p id="contact-hint" className="-mt-2 text-[13px] text-text-muted">Phone or email, at least one.</p>
+          <legend className="mb-1 text-sm font-medium">How to reach them</legend>
+          <p id="contact-hint" className="-mt-1 text-[13px] text-text-muted">Phone or email, at least one.</p>
           <div className="flex flex-col gap-1.5">
             <label htmlFor="lead-phone" className="text-sm">Phone</label>
             <input
