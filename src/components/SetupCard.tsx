@@ -41,7 +41,7 @@ export function SetupCard(props: SetupCardProps) {
     >
       <header className="flex items-start gap-4">
         <div className="min-w-0 flex-1">
-          <h2 id="setup-card-title" className="flex items-center gap-2 text-lg font-semibold">
+          <h2 id="setup-card-title" tabIndex={-1} className="flex items-center gap-2 text-lg font-semibold">
             {allDone && <StatusDone size={22} />}
             {allDone ? "You're all set" : 'Get started with LeadZam'}
           </h2>
