@@ -4,10 +4,13 @@ UI/UX & Frontend Intern assignment for Team Variance, by Prateek Chauhan.
 
 A working React + TypeScript prototype of one redesigned area of LeadZam: the setup guide a new trial user sees on their first visit.
 
-- **Live demo:** _add Vercel link_
-- **Figma:** _add Figma link_
-- **UI/UX audit:** _add audit link_
-- **Walkthrough video:** _add video link_
+- **[Live demo](https://leadzam-setup-redesign.vercel.app/)** 
+
+- **[Figma]( https://www.figma.com/design/642YR68knf2zAEam1123Tt/LeadZam-Setup-Guide-Redesign?node-id=0-1&t=vtjd4fcpLrIVnLFV-1)**
+
+- **[UI/UX audit](https://drive.google.com/file/d/1RfA7nVFq5du24Gg-LaVClzQPIEG6j80q/view?usp=sharing)** 
+
+- **[Walkthrough video](https://www.loom.com/share/93d68acf17384e6f9487b28049f6e0ae)**
 
 ## The problem
 
